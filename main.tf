@@ -4,9 +4,7 @@ terraform {
 
 provider "aws" { 
   region 	= "us-east-2"
-  access_key = 'ACCESS-KEY'
-  secret_key = 'SECRET-KEY'
-}
+ }
 
 # module "my_vpc" {
 #        source  = "./MODULES/vpc"
