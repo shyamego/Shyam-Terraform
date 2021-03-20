@@ -2,6 +2,13 @@ terraform {
 	required_version 	= ">=0.12"
 }
 
+provider "aws" { 
+  access_key = credentials('ACCESS-KEY')
+  secret_key = credentials('SECRET-KEY')
+}
+
+
+
 provider "aws" {
 	region 	= "us-east-2"
 }
