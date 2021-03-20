@@ -3,8 +3,8 @@ terraform {
 }
 
 provider "aws" { 
-  access_key = credentials('ACCESS-KEY')
-  secret_key = credentials('SECRET-KEY')
+  access_key = credentials("ACCESS-KEY")
+  secret_key = credentials("SECRET-KEY")
 }
 
 
