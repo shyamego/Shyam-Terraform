@@ -10,9 +10,9 @@ provider "aws" {
 #        source  = "./MODULES/vpc"
 #}
 
-# module "my_ec2" {
-#	source 	= "./MODULES/ec2"
-# }
+module "my_ec2" {
+	source 	= "./MODULES/ec2"
+}
 
 
 module "my_s3" {
